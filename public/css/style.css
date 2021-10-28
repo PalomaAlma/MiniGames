@@ -1,0 +1,52 @@
+body {
+    background-color: #3B403F !important;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+#mainGame {
+    background-color: rgba(213, 230, 227, .25);
+    box-shadow: inset 5px 5px 10px rgba(255, 255, 255, .20), inset -5px -5px 10px rgba(59, 64, 63, .5);
+    border-radius: 5px;
+
+}
+
+.check {
+    background-color: rgba(230, 230, 230, 1);
+    box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 1), inset -5px -5px 10px rgba(204, 204, 204, 1);
+}
+
+
+.check:hover {
+    background-color: rgba(204, 204, 204, 1);
+    box-shadow: inset 5px 5px 10px rgba(230, 230, 230, 1), inset -5px -5px 10px rgba(179, 179, 179, 1);
+}
+
+.check:active {
+    background-color: rgba(204, 204, 204, 1);
+    box-shadow: inset -5px -5px 10px rgba(230, 230, 230, 1), inset 5px 5px 10px rgba(179, 179, 179, 1);
+}
+
+.input {
+    background-color: #FFFFFF;
+}
+
+.btn-lg {
+    color: #3B403F;
+    background-color: rgba(255, 194, 82, 1);
+    box-shadow: inset 5px 5px 10px rgba(255, 244, 130, .5), inset -5px -5px 10px rgba(194, 140, 22, 1);
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.btn-lg:hover {
+    background-color: rgba(194, 140, 22, 1);
+    box-shadow: inset 5px 5px 10px rgba(255, 194, 82, .5), inset -5px -5px 10px rgba(168, 121, 19, 1);
+}
+
+
+.btn-lg:active {
+    background-color: rgba(194, 140, 22, 1);
+    box-shadow: inset -5px -5px 10px rgba(255, 194, 82, .5), inset 5px 5px 10px rgba(168, 121, 19, 1);
+}
